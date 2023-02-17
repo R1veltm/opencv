@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tom Girshovski</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="index.html">home</a></li>
+                <li><a href="aboutMe.html">about Me</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="blog.html">blog</a></li>
+            </ul>
+            <div class="links">
+                <a href="https://twitter.com/JKWOeTinrCBEiGt"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="https://www.youtube.com/@r1velr1vel"><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="https://vk.com/shurupik2000"><ion-icon name="logo-vk"></ion-icon></a>
+                <a href="https://discord.gg/yMpaf8cY"><ion-icon name="logo-discord"></ion-icon></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>
+                    Hello!, my name is Tom, and I'm video and photo designer, I have 4 years of experience and a lot of Satisfied customers.
+                </p>
+                <div class="btns">
+                    <button>Download CV</button>
+                    <button>hire me</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="Splash.png" class="splash">
+                    <img src="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <h1>I'm Coder</h1>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings : ["Graphic Designer.", "Coder.", "Video Editor."],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+
+<script>
+    window.addEventListener('mouseover', initLandbot, { once: true });
+    window.addEventListener('touchstart', initLandbot, { once: true });
+    var myLandbot;
+    function initLandbot() {
+      if (!myLandbot) {
+        var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+        s.addEventListener('load', function() {
+          var myLandbot = new Landbot.Livechat({
+            configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1454412-HI0H2HX59QDSY789/index.json',
+          });
+        });
+        s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+    }
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
